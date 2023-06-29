@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css" /> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="Weather-App">
+        <form class="weather-search" -form id="search-form">
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="search"
+                placeholder="Type a city.."
+                class="form-control shadow-sm"
+                autocomplete="off"
+                autofocus="on"
+                id="city-input"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="search"
+                
+                class="form-control btn btn-primary shadow-sm"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="button"
+                value="Current"
+                class="form-control btn btn-success shadow-sm"
+                id="current-location-button"
+              />
+            </div>
+          </div>
+        </form>
+        <h1 id="city"></h1>
+        <ul>
+           <li id="date"></li>
+           <li id="description"></li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <div class="clearfix">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="cloudyicon"
+                class="weather-icon float-left"
+               />
+              <div class="float-left">
+                <span class="temperature" id="temperature">24</span>
+                </span>
+              <span class="units">
+                <a href="#" id="celsius-link">°C</a> I
+                <a href="#" id="fahrenhait-link">°F</a>
+              </span>
+            </div>
+            </div>
+            <div class="col-6">
+            <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+            </ul>
+    </div>
+      <div class="footer-container">
+        <div class="Sunday">Sunday</div>
+        <div class="Monday">Monday</div>
+        <div class="Tuesday">Tuesday</div>
+        <div class="Wednesday">Wednesday</div>
+        <div class="Thursday">Thursday</div>
+        <div class="Friday">Friday</div>
+        <div class="Saturday">Saturday</div>
+        <div class="pair1">
+          <div class="temp1">26°</div>
+          <div class="icon1">☀️</div>
+        </div>
+        <div class="pair2">
+          <div class="temp2">29°</div>
+          <div class="icon2">☀️</div>
+        </div>
+        <div class="pair3">
+          <div class="temp3">25°</div>
+          <div class="icon3">🌥️</div>
+        </div>
+        <div class="pair4">
+          <div class="temp4">24°</div>
+          <div class="icon4">🌦️</div>
+        </div>
+        <div class="pair5">
+          <div class="temp5">23°</div>
+          <div class="icon5">⛈️</div>
+        </div>
+        <div class="pair6">
+          <div class="temp6">24°</div>
+          <div class="icon6">🌦️</div>
+        </div>
+        <div class="pair7">
+          <div class="temp7">24°</div>
+          <div class="icon7">🌥️</div>
+        </div>
+    </div>
+          <footer class="text-center">
+      <a
+        class="text-decoration-none"
+        href="https://github.com/lyanasky/Weather-app"
+        target="_blank"
+        >Open-source code</a
+      >
+      <span>by Eliana Walters</span>
+    </footer>     
+    <script src="index.js"></script>
+  </body>
+</html>
