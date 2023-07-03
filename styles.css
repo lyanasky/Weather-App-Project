@@ -12,6 +12,7 @@ h1 {
   margin: 0;
 }
 li {
+  list-style: none;
   color: #0e2431;
   display: block;
   font-family: Arial, sans-serif;
