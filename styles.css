@@ -1,5 +1,7 @@
 body {
   font-family: Arial, sans-serif;
+   background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+  height: 100vh;
 }
 h1 {
   font-size: 34px;
