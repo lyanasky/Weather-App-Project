@@ -49,7 +49,6 @@ li:first-letter {
   max-width: 600px;
   margin: 30px auto;
   border-radius: 20px;
-  border-style: solid;
   border-width: 3px;
 }
 .overview {
