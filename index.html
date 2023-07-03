@@ -16,10 +16,11 @@
   </head>
   <body>
     <div class="container">
-      <div class="Weather-App">
-        <form class="weather-search" -form id="search-form">
-          <div class="row">
-            <div class="col-6">
+        <div class = "Weather-App-Wrapper">
+        <div class="Weather-App">
+            <form class="weather-search" -form id="search-form" class="mb-3">
+                <div class="row">
+                  <div class="col-6">
               <input
                 type="search"
                 placeholder="Type a city.."
@@ -27,6 +28,7 @@
                 autocomplete="off"
                 autofocus="on"
                 id="city-input"
+                autocomplete="off"
               />
             </div>
             <div class="col-3">
@@ -52,6 +54,14 @@
            <li id="date"></li>
            <li id="description"></li>
         </ul>
+      <small>      
+      <a
+         href="https://github.com/lyanasky/Weather-App-Project"
+        target="_blank"
+        >Open-source code</a
+      >
+      by Eliana Walters
+    </small>
         <div class="row">
           <div class="col-6">
             <div class="clearfix">
@@ -74,16 +84,7 @@
               <li>Humidity: <span id="humidity"></span>%</li>
               <li>Wind: <span id="wind"></span> km/h</li>
             </ul>
-    </div>
-          <footer class="text-center">
-      <a
-        class="text-decoration-none"
-         href="https://github.com/lyanasky/Weather-App-Project"
-        target="_blank"
-        >Open-source code</a
-      >
-      <span>by Eliana Walters</span>
-    </footer>     
+    </div>     
     <script src="index.js"></script>
   </body>
 </html>
