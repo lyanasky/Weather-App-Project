@@ -7,9 +7,10 @@ h1 {
   font-size: 34px;
   color: #0e2431;
   font-family: arial, sans-serif;
-  line-height: 40px;
-  font-weight: 100;
+  line-height: 28px;
+  font-weight: 400;
   margin: 0;
+  padding-bottom: 5px;
 }
 li {
   list-style: none;
@@ -17,9 +18,10 @@ li {
   display: block;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
   height: 19px;
   line-height: 1;
+  padding-bottom: 2%;
 }
 ul {
   margin: 0 0 10px;
@@ -47,10 +49,20 @@ li:first-letter {
   border: 1px solid #f27370;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/856/original/freshbackground.jpg?1686245109");
   padding: 15px;
-  max-width: 600px;
+  max-width: 700px;
   margin: 30px auto;
   border-radius: 20px;
   border-width: 3px;
+  background-size: cover;
+  margine-bottom:0;
+  padding:4% 2% 0 2%;
+  color:#fff;
+}
+.upper{
+  margine-bottom:5px;
+}
+.upper li {
+  font-size:5%;
 }
 .overview {
   margin-bottom: 20px;
