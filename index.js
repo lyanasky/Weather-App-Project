@@ -64,7 +64,7 @@ function showForecast(response) {
 }
 
 function getForecasting(coordinates) {
-  let apiKey  =`407983bc8ab7f0ect5d0a9b4o05acb47`;;
+  let apiKey  =`407983bc8ab7f0ect5d0a9b4o05acb47`;
   let apiUrl = `https://api.shecodes.io/weather/v1/forecast?lat=${coordinates.latitude}&lon=${coordinates.longitude}&key=${apiKey}&units=metric`;
   axios.get(apiUrl).then(showForecast);
 }
@@ -153,4 +153,4 @@ linkCelsius.addEventListener(`click`, cLink);
 let currentLocationButton = document.querySelector("#location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
-searchCity("Abuja,Nigeria")
+searchCity("Abuja,Nigeria");
