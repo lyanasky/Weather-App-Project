@@ -45,6 +45,24 @@ ul {
 } 
 li:first-letter {
   text-transform: capitalize;
+  .buttonwrap {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.tempInfo img {
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  margin-left: 18%;
+  flex: 1;
+}
+}
+li #feels,
+#humidity,
+#wind {
+  color: rgb(245, 236, 188);
+}
 }
 .Weather-App {
   border: 1px solid #f27370;
