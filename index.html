@@ -62,12 +62,27 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> km/h</li>
-              </ul>
-          </div>
+              <div class="col-4">
+              <div class="buttonwrap">
+                <button class="btn btn-light btn-small" id="location-button">
+                  My Location
+                </button>
+                <ul class="locateMe">
+                  <li>
+                    Feels like <span id="feels"></span
+                    ><span class="measures">°</span>
+                  </li>
+                  <li>
+                    Humidity: <span id="humidity"></span
+                    ><span class="measures">%</span>
+                  </li>
+                  <li>
+                    Wind: &nbsp; &nbsp; &nbsp; <span id="wind"></span
+                    ><span class="measures">km/h</span>
+                  </li>
+                </ul>
+              </div>
+            </div> 
             <div class="forecastRow">
           <div class="forecasting" id="forecasting"></div>
         </div>
