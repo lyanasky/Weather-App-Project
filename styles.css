@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+   background-size: cover;
   height: 100vh;
 }
 h1 {
@@ -10,7 +11,7 @@ h1 {
   line-height: 28px;
   font-weight: 400;
   margin: 0;
-  padding-bottom: 5px;
+  
 }
 li {
   list-style: none;
@@ -21,7 +22,6 @@ li {
   font-weight: 300;
   height: 19px;
   line-height: 1;
-  padding-bottom: 20%;
 }
 ul {
   margin: 0 0 10px;
