@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-   background: ("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/086/833/original/cloudsky.jpg?1687554876");
+   background-image: url ("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/086/833/original/cloudsky.jpg?1687554876");
   height: 100vh;
 }
 h1 {
