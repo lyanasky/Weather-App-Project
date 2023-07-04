@@ -16,35 +16,38 @@
   </head>
   <body>
     <div class="container">
-       <div class="Weather-App">
-        <div class = "weather-app-wrapper">
-            <form id="search-form" class="mb-3">
-                <div class="row">
-                  <div class="col-6">
+      <div class="weather-app">
+        <form class="mb-3" id="city-form">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-6">
               <input
                 type="search"
-                placeholder="Type a city.."
+                placeholder="Type a city name...."
+                autofocus="on"
+                autocomplete="off"
+                id="search-engine"
                 class="form-control shadow-sm"
-                id="city-input"
-                 autocomplete="off"
               />
             </div>
-            <div class="col-3">
+             <div class="col-3">
               <input
                 type="submit"
-                value="search"
-                class="btn btn-primary w-100"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm w-100"
               />
             </div>
+            <div class="col-1"></div>
           </div>
         </form>
-      <div class="overview">
-            <h1 id="city"></h1>
-            <ul>
-              <li>Last updated: <span id="date"></span></li>
-              <li id="description"></li>
-            </ul>
-          </div>
+        <br />
+        <div class="upper">
+          <h1><span id="city-name"></span>, <span id="country"></span></h1>
+          <ul>
+            <li>Last updated: <span id="current-date"></span></li>
+            <li id="description"></li>
+          </ul>
+        </div>
           <div class="row">
             <div class="col-6">
               <div class="clearfix weather-temperature">
