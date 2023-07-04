@@ -153,4 +153,4 @@ linkCelsius.addEventListener(`click`, cLink);
 let currentLocationButton = document.querySelector("#location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
-searchCity("Abuja,Nigeria");
+showCity("Abuja,Nigeria");
