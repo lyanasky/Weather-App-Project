@@ -39,8 +39,8 @@ ul {
   line-height: 1;
 }
 .weather-app-wrapper {
-  max-width: 600px;
-  margin: 30px auto;
+  max-width: 900px;
+  margin: 40px auto;
 } 
 li:first-letter {
   text-transform: capitalize;
@@ -79,6 +79,14 @@ li:first-letter {
 }
 .weather-temperature .active {
   color: rgb(33, 33, 33);
+  .forecastRow {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  margin: 9% 5% 0 5%;
+  border-radius: 10% solid transparent;
+  background-color: rgba(32, 87, 155, 0.1);
+}
   cursor: default;
 }
 .weather-temperature .active:hover {
@@ -106,4 +114,29 @@ li:first-letter {
 }
 #fahrenheit-link{
   cursor: pointer;
+}
+.forecastRow {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  margin: 9% 5% 0 5%;
+  border-radius: 10% solid transparent;
+  background-color: rgba(32, 87, 155, 0.1);
+}
+.forecasting {
+  padding: 2px;
+  margin: 10px auto;
+}
+.forecastDays {
+  font-size: 15px;
+  font-weight: 500;
+}
+.forecastTemp {
+  font-size: 13px;
+  .forecastTempMax {
+  font-weight: bold;
+}
+.forecastTempMin {
+  opacity: 0.5;
+  color: #004dc0;
 }
