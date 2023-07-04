@@ -57,23 +57,18 @@ li:first-letter {
   margin-left: 18%;
   flex: 1;
 }
-}
-li #feels,
-#humidity,
-#wind {
-  color: rgb(245, 236, 188);
-}
-}
+
 .Weather-App {
   border: 1px solid #f27370;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/856/original/freshbackground.jpg?1686245109");
   padding: 15px;
-  max-width: 700px;
-  margin: 30px auto;
+  max-width: 600px;
+  margin: 20px auto;
   border-radius: 20px;
   border-width: 3px;
   background-size: cover;
   margine-bottom:0;
+   padding: 4% 2% 0 2%;
  
 }
 .overview {
