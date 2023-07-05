@@ -29,8 +29,8 @@ ul {
   padding: 0;
 }
 .weather-app-wrapper {
-  max-width: 800px;
-  margin: 30px auto;
+  max-width: 900px;
+  margin: 40px auto;
   text-align: center;
   margin-top:0;
  margin-bottom:0; 
@@ -87,7 +87,7 @@ button {
   position: absolute;
   height: 130px;
   width: 130px;
-  margin-left: 15%;
+  margin-left: 9%;
   flex: 1;
 }
 
