@@ -28,14 +28,15 @@ ul {
   margin: 0 0 10px;
   padding: 0;
 }
-.weather-app-wrapper {
-  max-width: 900px;
-  margin: 40px auto;
+
+p.details{
+  font-style: none;
   text-align: center;
-  margin-top:0;
- margin-bottom:0; 
-  
-}
+  font-size: 11px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Courier New", Courier, monospace;
+  color: #201d1d;
 
 ul .locateMe {
   padding-left: 1%;
