@@ -93,7 +93,7 @@ button {
 
 .tempInfo strong {
   color: #f27370;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 400;
   line-height: 1;
 }
@@ -116,7 +116,7 @@ button {
   text-decoration: none;
 }
 .measures {
-  color: rgb(245, 236, 188);
+  color: rgb(32,87,155,0.1);
 }
 
 .forecastRow {
