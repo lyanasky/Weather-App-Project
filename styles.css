@@ -35,9 +35,9 @@ p.details{
   font-size: 11px;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial, sans-serif;
   color: #201d1d;
-
+}
 ul .locateMe {
   padding-left: 1%;
 }
@@ -57,7 +57,7 @@ button {
   border: 1px solid #f27370;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/856/original/freshbackground.jpg?1686245109");
   padding: 15px;
-  max-width: 600px;
+  max-width: 700px;
   margin: 20px auto;
   border-radius: 20px;
   border-width: 3px;
