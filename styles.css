@@ -93,7 +93,7 @@ button {
 
 .tempInfo strong {
   color: #f27370;
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 400;
   line-height: 1;
 }
@@ -108,7 +108,7 @@ button {
 }
 
 .tempInfo .active {
-  color: #fff;
+  color:  #0e2431;
   cursor: default;
 }
 
