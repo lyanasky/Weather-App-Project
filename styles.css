@@ -32,6 +32,9 @@ ul {
   max-width: 800px;
   margin: 30px auto;
   text-align: center;
+  margin-top:0;
+ margin-bottom:0; 
+  
 }
 
 ul .locateMe {
@@ -84,7 +87,7 @@ button {
   position: absolute;
   height: 130px;
   width: 130px;
-  margin-left: 18%;
+  margin-left: 15%;
   flex: 1;
 }
 
